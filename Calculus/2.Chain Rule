@@ -1,0 +1,80 @@
+### Chain rule
+
+###### Auther:Czhuman
+
+Now we have a problem, when we encounter more complex functions how do we go about deriving them?
+
+For example, y=ax+bx, how to find the derivative?
+
+You can also do it the stupid way
+$$
+\begin{array}{ll}
+y=ax+bx\\
+y+\Delta y=a(x+\Delta x)+b(x+\Delta x)\\
+y+\Delta y=ax+a\Delta x+bx+b\Delta x\\
+\Delta y=a\Delta x+b\Delta x\\
+\Delta y=(a+b)\Delta x\\
+\frac{\Delta y}{\Delta x}=a+b\\
+y'=a+b
+\end{array}
+$$
+Too much trouble too much trouble!
+
+So is there some kind of theorem that can help us deal with this situation better?
+
+The answer is yes, and it is very practical.
+$$
+y=f(x)+g(x)\\
+\frac{\Delta y}{\Delta x}=\frac{\Delta f}{\Delta x}+\frac{\Delta g}{\Delta x}
+$$
+This is the use of this rule for additive derivatives of functions.
+
+Substituting into the above equation, it is easy to derive the derivative of y=ax+bx as a+b
+
+Next, let's look at the derivative of the function multiplication:y=2x^2
+
+As usual, we still try to use the stupid method
+$$
+\begin{array}{ll}
+y=2x^2\\
+y+\Delta y=2(x+\Delta x)^2\\
+y+\Delta y=2x^2+4\,\Delta x\, x+2 \Delta x^2\\
+\Delta y=4\,\Delta x\, x+2 \Delta x^2\\
+\frac{\Delta y}{\Delta x}=4x+2\Delta x\\
+\lim_{\Delta x \to 0}4x+2\Delta x=4x\\
+y'=4x
+\end{array}
+$$
+It's still a very complicated method.
+
+Once again, another law is introduced:
+$$
+y=f(x)*g(x)\\
+\frac{\Delta y}{\Delta x}=\frac{\Delta f}{\Delta x}g(x)+f(x)\frac{\Delta g}{\Delta x}
+$$
+Bring in the calculation again
+$$
+y=2x^2\\
+y'=0*2x+2*2x=4x
+$$
+Obviously much simpler
+
+Next we look at a nested function derivative
+$$
+y=\sin{x^2}
+$$
+In this case, we don't seem to be able to use our stupid solution.
+
+But we can first wrap the inner function as Δh
+$$
+y=f(g(x))\\
+\frac{\Delta y}{\Delta x}=\frac{\Delta f}{\Delta h}\frac{\Delta h}{\Delta x}(h=g(x))
+$$
+Substitute again to calculate
+$$
+y=\sin{x^2}\\
+y'=cos(x^2)2x
+$$
+As for the derivative of sin, I will explain it in detail in the next section.
+
+We have mastered the three theorems of the chain rule, next, we can happily peel the onion skin of the derivative

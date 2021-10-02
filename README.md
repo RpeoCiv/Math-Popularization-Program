@@ -22,4 +22,3 @@ Contents:
 
 1. Solution of differential equations, visual understanding of several derivatives
 2. The basic chain rule
-3. Geometry demonstration

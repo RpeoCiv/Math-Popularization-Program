@@ -1,5 +1,7 @@
 # Math-Popularization-Program
 
+Produced by the Free Mathematicians Consortium (FMC)
+
 Break the traditional perception of mathematics and create a new mathematical learning environment and method.<br>
 
 ### Tip.

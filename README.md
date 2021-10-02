@@ -1,6 +1,10 @@
 # Math-Popularization-Program
 
-Break the traditional perception of mathematics and create a new mathematical learning environment and method.
+Break the traditional perception of mathematics and create a new mathematical learning environment and method.<br>
+
+### Tip.
+
+For your reading experience, please use typora after downloading the tutorial(.md format) Open and check
 
 ### Logs:
 

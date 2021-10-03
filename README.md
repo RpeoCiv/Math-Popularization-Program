@@ -16,6 +16,15 @@ You can submit some textbooks (.md format) in pull request, but you need to indi
 
 We encourage everyone to actively participate in the localization of these materials to help people with the same native language as themselves to learn them better. For localization, please create a folder under the appropriate module with the name of this language as an acronym, e.g. "zh-cn" for Chinese. And use the title of the translated content directly without changing it, and put it in the appropriate language folder.
 
+### Community norms
+
+1. Everyone has the right to freely upload teaching materials and videos
+2. The uploaded texts should be in civilized language and insulting words are prohibited.
+3. Any political discussion or allusion is prohibited.
+4. No pornographic content is allowed
+5. Racial discrimination and other attacks on certain groups are prohibited.
+6. Violation of 2~5 rules and regulations will revoke the right given in the first article.
+
 ### Logs:
 
 ##### 2021/10/2
@@ -36,3 +45,10 @@ Contents:
 1. Updating the mathematical induction method
 
 ###### Open Localization
+
+##### 2021/10/3
+
+###### Update community norms and rules
+
+To build a harmonious community, I have developed a set of norms
+
